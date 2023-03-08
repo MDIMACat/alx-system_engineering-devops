@@ -12,4 +12,5 @@ script 10 - change to previous working directory
 script 11 - list
 Script 12 - echo into a file
 Script 13 -symbolic link
-Script 14 - Html files
+Script 14 - Html file
+script 15 - move uppercase files
