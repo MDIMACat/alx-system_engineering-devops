@@ -15,4 +15,4 @@ Script 13 -symbolic link
 Script 14 - Html file
 script 15 - move uppercase files
 script 16 - remove files
-
+script 17 - making directory in a directory
