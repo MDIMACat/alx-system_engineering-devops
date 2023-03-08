@@ -9,3 +9,4 @@ Script 7 - moving the file betty to tmp/my first directory
 Script 8 - Delete betty file
 Script 9 - Delete folder my first directory 
 script 10 - change to previous working directory
+script 11 - list 
