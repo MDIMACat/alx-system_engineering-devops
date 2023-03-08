@@ -6,4 +6,4 @@ Script 4 - Shows content of current directory that are also hidden in long forma
 Script 5 - Show the numerical value of user and group id, long format and hidden file
 Script 6 - show directory
 Script 7 - moving the file betty to tmp/my first directory
- 
+Script 8 - Delete betty file
