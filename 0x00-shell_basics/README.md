@@ -10,4 +10,6 @@ Script 8 - Delete betty file
 Script 9 - Delete folder my first directory 
 script 10 - change to previous working directory
 script 11 - list
-Script 12 - echo into a file 
+Script 12 - echo into a file
+Script 13 -symbolic link
+ 
