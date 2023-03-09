@@ -9,3 +9,6 @@ script 8 - james bond
 SCRIPT 7 - MULTIPLE PERMISSIONS
 script 9 - set the mode of a file
 script 10 - look in the mirror
+script 11 - creating directories for sub directories
+script 12 - make a directory
+:
