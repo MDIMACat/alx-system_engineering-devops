@@ -6,3 +6,4 @@ script 4 - creates an empty file
 script 5 - add execute to owner
 scrpit 6 - add multiple permissions
 script 8 - james bond
+SCRIPT 7 - MULTIPLE PERMISSIONS
