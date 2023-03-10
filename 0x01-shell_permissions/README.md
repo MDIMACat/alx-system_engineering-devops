@@ -15,3 +15,4 @@ script 13 - change group
 100 - change ownership and change group
 103 - play a media file
 101 - symbolic link
+102 - if only
