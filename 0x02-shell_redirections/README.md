@@ -13,4 +13,5 @@ This Readme file contains the description of all the scripts to be executed in t
 	11.Count the number of directories and sub-directories
 	12.Listing of files from newest to oldest
 	13.Print out the words that appear once in a list
+	14.Display lines that have a pattern
 
