@@ -10,5 +10,5 @@ This Readme file contains the description of all the scripts to be executed in t
 	8. displays the ls -al command content
 	9. Duplicates last line
 	10.Remove regular files
-	11. count the number of directories
+	11.Count the number of directories and sub-directories
 
