@@ -6,4 +6,4 @@ This Readme file contains the description of all the scripts to be executed in t
 	4. Display the last 10 lines of a file
 	5. Displays the first 10 lines of the files
 	6. Displays the 3rd line of the file
-
+	7. the script creats a file name
