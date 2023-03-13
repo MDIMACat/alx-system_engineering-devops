@@ -11,4 +11,5 @@ This Readme file contains the description of all the scripts to be executed in t
 	9. Duplicates last line
 	10.Remove regular files
 	11.Count the number of directories and sub-directories
+	12.Listing of files from newest to oldest
 
