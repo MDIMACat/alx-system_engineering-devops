@@ -19,4 +19,6 @@ This Readme file contains the description of all the scripts to be executed in t
 	17.Display words that dont contain bin
 	18.Display lines that begin with Letters
 	19.Replace characters
-	20.Remove all C  
+	20.Remove all C
+	21.Writes input in reverse
+  
