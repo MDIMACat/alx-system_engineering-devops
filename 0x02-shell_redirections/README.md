@@ -18,4 +18,5 @@ This Readme file contains the description of all the scripts to be executed in t
 	16. Display lines with the same pattern and 3 lines after
 	17.Display words that dont contain bin
 	18.Display lines that begin with Letters
-	19.Replace characters 
+	19.Replace characters
+	20.Remove all C  
