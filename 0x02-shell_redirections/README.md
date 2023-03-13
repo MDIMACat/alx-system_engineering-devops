@@ -9,3 +9,4 @@ This Readme file contains the description of all the scripts to be executed in t
 	7. the script creats a file name
 	8. displays the ls -al command content
 	9. Duplicates last line
+	10.Remove regular files
