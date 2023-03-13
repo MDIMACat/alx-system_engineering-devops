@@ -15,7 +15,7 @@ This Readme file contains the description of all the scripts to be executed in t
 	13.Print out the words that appear once in a list
 	14.Display lines that have a pattern
 	15.Display nuber of lines with "bin" in them
-	16.Display lines with the same pattern and 3 lines after
-	17. Display words that dont contain bin
+	16. Display lines with the same pattern and 3 lines after
+	17.Display words that dont contain bin
 	18.Display lines that begin with Letters
- 
+	19.Replace characters 
