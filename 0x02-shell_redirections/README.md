@@ -16,4 +16,6 @@ This Readme file contains the description of all the scripts to be executed in t
 	14.Display lines that have a pattern
 	15.Display nuber of lines with "bin" in them
 	16.Display lines with the same pattern and 3 lines after
-	17. Display words that dont contain binn  
+	17. Display words that dont contain bin
+	18. Display lines that begin with Letters
+ 
