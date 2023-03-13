@@ -21,5 +21,6 @@ This Readme file contains the description of all the scripts to be executed in t
 	19.Replace characters
 	20.Remove all C
 	21.Writes input in reverse
- 	22.Display users 
+ 	22.Display all users and directory and sorted them by users
+ 
  
