@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n "" iacta | grep "^3:" | cut -d ":" -f 2-
+ed -s iacta <<< "3p"
