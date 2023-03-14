@@ -11,3 +11,5 @@ script 8 - adding using arithmetic expression
 scriptt 9 - dividing using arithmetic expressions
 script 10 - show the exponents using the arithmetic expression
 script 11 - converting from one base to another base
+script 12 - Print possible combinations of letters except "oo"
+
