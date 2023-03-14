@@ -9,4 +9,4 @@ script 6 - creates a whole new variable
 script 7 - creates a whole new global variable
 script 8 - adding using arithmetic expression
 scriptt 9 - dividing using arithmetic expressions
-script 10 -  shows the power of
+script 10 - show the exponents using the arithmetic expression
