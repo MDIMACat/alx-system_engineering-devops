@@ -12,4 +12,4 @@ scriptt 9 - dividing using arithmetic expressions
 script 10 - show the exponents using the arithmetic expression
 script 11 - converting from one base to another base
 script 12 - Print possible combinations of letters except "oo"
-
+script 13 - creating a float
