@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# script that displays numbers from 1 to 20
+count=1
+max_num=20
+while ((count <= max_num ));
+do
+	if [ $count = 4 ] 
+	then
+		echo "bad luck from China"
+	elif [ $count = 9 ]
+	then
+		echo "bad luck from Japan"
+	elif [ $count = 17 ]
+	then
+		echo "bad luck from Italy"
+	else
+		echo "$count"
+	fi
+	count=$(( count + 1 ));
+done
