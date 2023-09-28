@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#Printing using a while loop with a if conditional
+count=0
+string="Best School"
+string1="Hi"
+num_of_prints=10
+while (($count <= $num_of_prints));
+do
+	echo "$string"
+	if [[ $count -eq 9 ]]
+	then
+		echo "$string1"
+	fi
+
+	count=$((count + 1));
+done
