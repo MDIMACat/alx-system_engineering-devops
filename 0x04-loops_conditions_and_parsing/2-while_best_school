@@ -2,7 +2,7 @@
 # script that displays Best School 10 times, using while loop
 string="Best School"
 count=0
-while [ $count -le 10 ]
+while [ $count -le 10 ];
 do
 	echo "$string"
 	((count++));
