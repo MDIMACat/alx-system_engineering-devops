@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#Printing using a while loop with a if conditional and elif and else condition
+count=0
+num_of_prints=10
+good="good luck"
+bad="bad luck"
+string="Best School"
+while ((count < num_of_prints));
+do
+	if [ $count = 3 ]
+	then
+		echo "$bad"
+	elif [ $count = 7 ]
+	then
+		echo "$good"
+	else
+		echo "$string"
+	fi
+	
+	count=$((count + 1));
+done
