@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Script that stops/kills a process
-pkill -f infinity and beyond
+process_name="infinity_and_beyond"
+pkill -f "$process_name"
