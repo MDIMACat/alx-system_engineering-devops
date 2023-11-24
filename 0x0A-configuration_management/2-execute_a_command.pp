@@ -1,5 +1,6 @@
-# Kills a process with a specific name
+# kill_process.pp
 
-exec { 'pkill -f killmenow':
-  path    => '/usr/bin/'
+exec { 'kill_process':
+  command     => 'pkill killmenow',
+  path        => '/usr/bin:/bin',
 }
