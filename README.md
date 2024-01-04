@@ -18,6 +18,3 @@
     0x0A-configuration_management
     0x05-processes_and_signals         
     0x0B-ssh
-
-    test push
-    
