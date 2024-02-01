@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Script to debug and created a symbolic link 
+
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service restart nginx
