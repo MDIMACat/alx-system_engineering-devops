@@ -24,3 +24,9 @@ if __name__ == "__main__":
                 return sub_info
             except Exception:
                 return 0
+            
+        elif resp.status_code == 404:
+            return 0
+        else:
+            return 0
+
