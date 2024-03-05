@@ -3,7 +3,7 @@
 Define a function that queries the
 Reddit API.
 """
-from requests import get
+import requests
 
 
 if __name__ == "__main__":
@@ -15,18 +15,10 @@ if __name__ == "__main__":
         baseUrl = f"https://www.reddit.com/r/{subreddit}/about.json"
         header = {'User-Agent': "0x16-api_advanced/1.0"}
         
-        resp = get(baseUrl, headers=header, allow_redirects=False)
+        resp = requests.get(baseUrl, headers=header, allow_redirects=False)
         
-        if resp.status_code == 200:
-            try:
-                data = resp.json()
-                sub_info = data['data']['subscribers']
-                return sub_info
-            except Exception:
-                return 0
-            
-        elif resp.status_code == 404:
+        if (not resp.ok):
             return 0
-        else:
-            return 0
+        sub_count = resp.json().get('data').get('subscribers')
+        return sub_count
 
