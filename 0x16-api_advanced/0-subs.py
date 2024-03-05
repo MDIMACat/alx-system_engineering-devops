@@ -14,7 +14,7 @@ def number_of_subscribers(subreddit):
     subs = 0
     results = None
 
-    with get(f"https://www.reddit.com/r/{subreddit}/top.json",
+    with requests.get(f"https://www.reddit.com/r/{subreddit}/top.json",
              allow_redirects=False) as response:
         if (response.status_code == 200):
             res = response.json()
