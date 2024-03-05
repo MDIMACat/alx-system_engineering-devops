@@ -11,16 +11,16 @@ def number_of_subscribers(subreddit):
     """
     returns the number of subscribers for a given subreddit
     """
-    subs = 0
-    results = None
+    baseUrl = "https://www.reddit.com/r/{}/about.json".format(subreddit)
+    header = {'User-Agent': "0x16-api_advanced/1.0"}
 
-    with requests.get(f"https://www.reddit.com/r/{subreddit}/top.json",
-             allow_redirects=False) as response:
-        if (response.status_code == 200):
-            res = response.json()
-            subs = res["data"]["children"][0]["data"]["subreddit_subscribers"]
+    resp = requests.get(baseUrl, headers=header, allow_redirects=False)
 
-    return (subs)
+    if (not resp.ok):
+        return 0
+    sub_count = resp.json().get('data').get('subscribers')
+    return sub_count
+
 
 if __name__ == "__main__":
     number_of_subscribers(argv[1])
